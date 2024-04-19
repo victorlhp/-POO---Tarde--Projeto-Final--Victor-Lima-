@@ -1,0 +1,1 @@
+desenharImagens('container-artistas', meusDestinos);

@@ -1,0 +1,178 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color:lemonchiffon;
+    color:#000000;
+}
+
+.form-login {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 300px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #f0f0f0;
+    border: solid 1px #000000;
+
+}
+
+.form-login .linha-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login .ipt{
+    background-color: powderblue;
+    color: white;
+    font-size: 24px;
+}
+
+.form-login .ipt:focus{
+    outline: solid 1px blue;
+}
+
+.btnPrimario{
+    background-color:powderblue;
+    color:#000000;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*------------------------------*/
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    padding:16px;
+    border: dashed 1px black;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 120px; 
+    border: dashed 1px mediumblue;
+    gap: 8px;
+    padding: 10px;
+    align-items: center;
+}
+
+.card > .avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    object-fit: cover;
+    border: dashed 1px black;
+}
+
+.card > .conteudo{
+    padding-left: 24px;
+    width: 100%;
+    border: dashed 1px black;
+}
+
+.card > .barra-botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 16px;
+    /*width: 80px;*/ 
+    border: dashed 1px black;
+}
+
+.card > .barra-botoes > .btn-icone{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: blue;
+    border: solid whitesmoke;
+    border-radius: 30px;
+}
+
+.card-expandido{
+
+    display: flex;
+
+    flex-direction: column;
+
+ 
+
+    gap: 12px;
+
+ 
+
+    max-width: 800px;
+
+    /* border: solid 1px #ffffff; */
+
+}
+
+ 
+
+.card-expandido > .avatar{
+
+    max-height: 300px;
+
+    aspect-ratio: 4/3;
+
+    object-fit: cover;
+
+}
+
+ 
+
+.card-expandido > .conteudo{
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 8px 24px;
+
+    /* border: dashed 1px #ffffff; */
+
+}
+
+ 
+
+.card-expandido > .conteudo > .titulo{
+    font-size: 32px;
+    color: #000000;
+    margin: 0;
+
+}
+
+.card-expandido > .conteudo > .descricao{
+    font-size: 24px;
+}
+
+ 
+
+.card-expandido > .barra-botoes{
+
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 8px ;
+
+    padding: 8px 24px;
+
+}
+
+ 
+
+.card-expandido > .barra-botoes > button{
+
+    width: 100%;
+
+}
+
+
+
